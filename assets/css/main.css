@@ -880,4 +880,45 @@
 .footer-travelix_items li{
     margin-bottom:20px;
 }
+.footer-travelix_items li{
+    display: flex;
+    
+}
+.footer-link{
+    font-size:1.5rem;
+    color:#fff;
+    text-decoration: none;
+    font-weight:300;
+    height:30px;
+    width:112px;
+    border:1px solid #fa9e1b;
+    display:block;
+    text-align: center;
+    line-height: 2.7rem;
+    margin-right:20px;
+    transition: all linear 0.3s;
+}
+.footer-link:hover{
+    background-color: #4de922;
+}
+.footer-travelix_items li{
+    margin-top:30px;
+}
+.item-info{
+    display:flex;
+    align-items: center;
+}
+.item-info-icon{
+    color:#f9931d;
+    font-size:1.9rem;
+    margin-right:10px;
+}
+.info-link{
+    color:#fff;
+    font-size:1.7rem;
+    text-decoration:none;
 
+}
+.info-link:hover{
+    color:orange;
+}
